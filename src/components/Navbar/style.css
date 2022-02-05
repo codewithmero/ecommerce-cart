@@ -1,0 +1,70 @@
+.navbar {
+  background: var(--color-white);
+  padding: 3rem 6rem;
+  /* border-bottom: thin solid #ccc; */
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 1rem;
+}
+
+.logo {
+  flex: 0 0 12rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-list {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list > ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list ul li {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #aaa;
+}
+
+.navbar ul li:not(:last-child) {
+  margin-right: 5rem;
+}
+
+.cart {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.itemcount-badge {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  padding: 0.9rem;
+  border-radius: 50%;
+  background-color: #ff0000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--color-white);
+  font-weight: bold;
+
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+}
+
+.itemcount-badge > span {
+  font-size: 1rem;
+  display: inline-block;
+}

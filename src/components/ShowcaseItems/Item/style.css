@@ -1,0 +1,51 @@
+.item-card {
+  display: inline-block;
+  min-width: 22rem;
+  margin-bottom: 4rem;
+
+  background-color: var(--color-white);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+
+  border: thin solid #eee;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item-card > img {
+  margin: 0 auto 2.5rem;
+}
+
+.item-details {
+  text-align: center;
+  position: relative;
+}
+
+.item-details > .title {
+  font-size: 1.8rem;
+}
+
+.item-details > .description,
+.item-details > .price  {
+  font-size: 1.4rem;
+  font-weight: 300;  
+}
+
+.item-details > .title,
+.item-details > .description {
+  margin-bottom: 0.7rem;
+}
+.add-to-cart {
+  position: absolute;
+  right: 0.5rem;
+  top: -5rem;
+
+  border: thin solid #ccc;
+  padding: 1rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

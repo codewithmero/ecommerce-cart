@@ -1,0 +1,10 @@
+.showcase-container {
+  flex: 1;
+  padding: 3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+}
